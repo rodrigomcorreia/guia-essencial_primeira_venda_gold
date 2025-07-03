@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Essencial Primeira Venda - Página de Vendas</title>
+<style>
+  /* Reset e base */
+  * {
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  body {
+    background-color: #0d0d0d;
+    color: #f5f5f5;
+    line-height: 1.6;
+  }
+  a {
+    color: #d4af37;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 15px;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  header h1 {
+    color: #d4af37;
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .price {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  .price .old-price {
+    text-decoration: line-through;
+    color: #aaa;
+    margin-right: 15px;
+  }
+  .price .new-price {
+    color: #d4af37;
+    font-weight: 700;
+  }
+  .product-desc {
+    font-size: 1.15rem;
+    margin-bottom: 25px;
+  }
+  .buy-btn {
+    display: inline-block;
+    background: #d4af37;
+    color: #0d0d0d;
+    font-weight: 700;
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px #d4af37;
+  }
+  .buy-btn:hover {
+    background: #b38f1f;
+    box-shadow: 0 0 20px #b38f1f;
+    transform: scale(1.05);
+  }
+  .cover-img {
+    display: block;
+    max-width: 320px;
+    margin: 0 auto 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #d4af37;
+  }
+  section {
+    margin-bottom: 40px;
+  }
+  h2 {
+    color: #d4af37;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #d4af37;
+    padding-bottom: 6px;
+    font-size: 1.8rem;
+  }
+  .testimonials blockquote {
+    background: #1a1a1a;
+    padding: 20px 25px;
+    border-left: 5px solid #d4af37;
+    margin-bottom: 20px;
+    font-style: italic;
+    border-radius: 5px;
+  }
+  .testimonials cite {
+    display: block;
+    text-align: right;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #d4af37;
+  }
+  .faq dt {
+    cursor: pointer;
+    background: #1a1a1a;
+    padding: 15px 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #d4af37;
+  }
+  .faq dd {
+    background: #222;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    display: none;
+  }
+  .guarantee {
+    font-size: 1.1rem;
+    background: #1a1a1a;
+    padding: 20px;
+    border-left: 6px solid #d4af37;
+    border-radius: 5px;
+  }
+  @media (max-width: 600px) {
+    .buy-btn {
+      width: 100%;
+      text-align: center;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Essencial Primeira Venda</h1>
+      <div class="price">
+        <span class="old-price">20€</span>
+        <span class="new-price">3,90€</span>
+      </div>
+    </header>
+    
+    <img src="Capa Essencial Primeira Venda.png" alt="Capa do ebook Essencial Primeira Venda" class="cover-img" />
+    
+    <p class="product-desc">
+      Guia: Primeira Venda Gold é o teu manual prático e direto para fazer a tua primeira venda online de forma rápida e eficiente. Com estratégias testadas de marketing digital, persuasão e viralização, vais aprender a atrair leads, aumentar o alcance nas redes sociais e transformar seguidores em clientes reais — tudo sem complicações ou ferramentas caras.  
+      Ideal para quem está a começar e quer resultados rápidos, este guia mostra passo a passo como dominar o mundo digital, mesmo que nunca tenhas vendido nada antes.
+    </p>
+    
+    <div style="text-align:center; margin-bottom: 50px;">
+      <a href="https://pay.hotmart.com/Q100613005E" target="_blank" class="buy-btn">Comprar Agora</a>
+    </div>
+    
+    <section class="testimonials">
+      <h2>Testemunhos</h2>
+      <blockquote>
+        "Nunca pensei que fosse tão simples fazer a minha primeira venda. Este guia é direto e super prático!" 
+        <cite>– Mariana S., Lisboa</cite>
+      </blockquote>
+      <blockquote>
+        "Segui as estratégias passo a passo e consegui resultados em poucos dias. Recomendo muito!" 
+        <cite>– Tiago M., Porto</cite>
+      </blockquote>
+      <blockquote>
+        "Material de qualidade e fácil de aplicar. Para quem está a começar, é uma ajuda enorme." 
+        <cite>– Ana C., Faro</cite>
+      </blockquote>
+    </section>
+    
+    <section class="guarantee">
+      <h2>Garantia</h2>
+      <p>Tens 15 dias para solicitar reembolso, conforme as regras da Hotmart e legislação da UE. Se não gostares, podes pedir o dinheiro de volta sem complicações.</p>
+    </section>
+    
+    <section class="faq">
+      <h2>Perguntas Frequentes</h2>
+      <dl>
+        <dt>Este ebook é indicado para quem?</dt>
+        <dd>Para iniciantes que querem fazer a primeira venda online, criadores de conteúdo, pequenos empreendedores e qualquer pessoa interessada em marketing digital.</dd>
+        
+        <dt>Preciso de experiência para usar este guia?</dt>
+        <dd>Não! O conteúdo é feito para quem nunca vendeu online e quer aprender de forma simples e prática.</dd>
+        
+        <dt>Quais os formatos do ebook?</dt>
+        <dd>O ebook está em formato PDF, fácil de ler no telemóvel, tablet ou computador.</dd>
+        
+        <dt>Quanto tempo demora para ver resultados?</dt>
+        <dd>Depende da tua dedicação, mas seguindo as estratégias, muitos conseguem ver os primeiros resultados em uma semana.</dd>
+        
+        <dt>Preciso de pagar ferramentas extras?</dt>
+        <dd>Não. O guia usa principalmente ferramentas gratuitas e métodos que podes aplicar só com o telemóvel.</dd>
+        
+        <dt>Posso pedir reembolso se não gostar?</dt>
+        <dd>Sim, tens até 15 dias para solicitar reembolso, conforme as regras da Hotmart e legislação da UE.</dd>
+        
+        <dt>Vou receber suporte?</dt>
+        <dd>Sim, podes contactar o autor para dúvidas ou apoio através de <a href="mailto:rodrigocorreia.suport@gmail.com">rodrigocorreia.suport@gmail.com</a></dd>
+      </dl>
+    </section>
+  </div>
+
+<script>
+  // Toggle FAQ
+  document.querySelectorAll('.faq dt').forEach(item => {
+    item.addEventListener('click', () => {
+      const next = item.nextElementSibling;
+      if (next.style.display === 'block') {
+        next.style.display = 'none';
+      } else {
+        next.style.display = 'block';
+      }
+    });
+  });
+</script>
+
+</body>
+</html>
